@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WooliesChallenge", "WooliesChallenge\WooliesChallenge.csproj", "{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesChallengeTest", "WooliesChallengeTest\WooliesChallengeTest.csproj", "{6C595BC3-81C7-4ADE-8E4D-09A85374F177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C595BC3-81C7-4ADE-8E4D-09A85374F177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C595BC3-81C7-4ADE-8E4D-09A85374F177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C595BC3-81C7-4ADE-8E4D-09A85374F177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C595BC3-81C7-4ADE-8E4D-09A85374F177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE897760-F96A-47BC-BECC-35624B06884E}
+	EndGlobalSection
+EndGlobal
