@@ -21,7 +21,7 @@ namespace WooliesChallenge.Models
 
         public Product ToProduct()
         {
-            return (Product)this;
+            return new Product { Name = this.Name, Quantity = this.Quantity, Price = this.Price };
         }
     }
 }

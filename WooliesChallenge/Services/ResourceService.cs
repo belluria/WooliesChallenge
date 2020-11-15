@@ -44,7 +44,8 @@ namespace WooliesChallenge.Services
             RestClient client = new RestClient(urlPath);
             RestRequest restRequest = new RestRequest(Method.GET);
             restRequest.AddHeader("ContentType", "application/json");
-            restRequest.AddHeader("token", _resourceConfig.token);
+            //restRequest.AddHeader("token", _resourceConfig.token);
+            restRequest.AddParameter("token", _resourceConfig.token);
             IRestResponse<T> restResponse = await client.ExecuteAsync<T>(restRequest);
             return restResponse.Data;
         }
