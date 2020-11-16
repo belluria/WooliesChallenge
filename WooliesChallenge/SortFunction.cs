@@ -27,18 +27,19 @@ namespace WooliesChallenge
 
         [FunctionName("sort")]
         public IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "sort/{sortOption}")] HttpRequest req,
-            string sortOption,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "sort/{sortOption?}")] HttpRequest req,
             ILogger log)
         {
             try
             {
-                log.LogInformation("sort function processing a request.");
+                string sortOption = req.Query["sortOption"];
+                log.LogInformation($"sort function processing a request.");
+                
                 return new OkObjectResult(_sortService.GetProductsInSortedOrder(ApiInputParser.GetSortOption(sortOption)));
             }
             catch (Exception ex)
             {
-                log.LogError(ex, "Exception occurred. SortOption: {0}", sortOption);
+                log.LogError(ex, "Exception occurred while running sort function");
                 return new StatusCodeResult(500);
             }
         }

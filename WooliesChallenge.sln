@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WooliesChallenge", "WooliesChallenge\WooliesChallenge.csproj", "{CC5C75E3-0397-48B5-BC5D-4A5A765BA02E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesChallengeTest", "WooliesChallengeTest\WooliesChallengeTest.csproj", "{6C595BC3-81C7-4ADE-8E4D-09A85374F177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WooliesChallengeTest", "WooliesChallengeTest\WooliesChallengeTest.csproj", "{6C595BC3-81C7-4ADE-8E4D-09A85374F177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

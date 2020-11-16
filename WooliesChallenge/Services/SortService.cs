@@ -36,6 +36,7 @@ namespace WooliesChallenge.Services
                     {
                         dictProductsPopular[product.Name].TotalOrders++;
                         dictProductsPopular[product.Name].TotalQuantity += product.Quantity;
+                        dictProductsPopular[product.Name].Quantity += product.Quantity;
                     }
                     else
                     {

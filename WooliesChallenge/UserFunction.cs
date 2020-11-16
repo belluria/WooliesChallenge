@@ -27,7 +27,7 @@ namespace WooliesChallenge
 
         [FunctionName("user")]
         public IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             ILogger log)
         {
             try
